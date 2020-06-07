@@ -1,3 +1,5 @@
+//logic code for methods that link to todosList.html
+
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
 import { Tasks } from '../../api/tasks.js';
