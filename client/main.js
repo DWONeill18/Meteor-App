@@ -4,9 +4,11 @@ import todosList from "../imports/components/todosList/todosList";
 
 angular.module('simple-todos',[
   angularMeteor,
-    todosList.name
+    todosList.name,
+    'accounts.ui'
 ]);
 
+// functions for mobile app
 //function onReady() {
 //  angular.bootstrap(document, ['simple-todos']);
 //}
